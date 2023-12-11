@@ -683,11 +683,11 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.modal-close-icon:hover {
+.modal-btn:hover > .modal-close-icon {
     fill: #ffffff;
 }
 
-.modal-close-icon:focus {
+.modal-btn:focus .modal-close-icon {
     fill: #ffffff;
 }
 
@@ -812,7 +812,7 @@ img {
 
 
 .modal-input-checkbox:checked + .modal-label-user-privacy  .modal-label-checkmate {
-    background-color: #4D5AE5;
+    background-color:  #404bbf;
     border: none;
     fill: #f4f4fd;
 }
