@@ -806,20 +806,22 @@ img {
     fill: #4D5AE5; 
 }
 
+.modal-input:focus {
+    border-color: #4D5AE5;
+}
+
 
 .modal-input-checkbox:checked + .modal-label-user-privacy  .modal-label-checkmate {
     background-color: #4D5AE5;
+    border: none;
+    fill: #f4f4fd;
 }
 
-.modal-input-checkbox:checked + .modal-label-user-privacy  .modal-checkbox-icon {
-    fill: #ffffff;
-}
+
 
 
 
 .modal-label-checkmate {
-    position: absolute;
-    left: -4px;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4); 
